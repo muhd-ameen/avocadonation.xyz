@@ -13,7 +13,7 @@ export default function Home() {
           <div className="space-y-6 text-lg md:text-xl text-gray-600 leading-relaxed">
             <p>hi.</p>
 
-            <p>i&apos;m ameen.</p>
+            <p>i&apos;m ameen. mayor of avocado nation.</p>
 
             <p>
               i spend most of my time building things on the internet.
