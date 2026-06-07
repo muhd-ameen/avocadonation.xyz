@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Single-page static site (Vite). Serve index.html for any unknown path.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
