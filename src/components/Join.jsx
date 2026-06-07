@@ -24,7 +24,7 @@ export default function Join() {
 
       <div className="mt-12 flex flex-col gap-3 sm:flex-row">
         <a
-          href="https://discord.gg"
+          href="https://discord.gg/KEK7SrPF"
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3.5 text-sm font-medium text-black transition-opacity duration-150 ease-out hover:opacity-90 active:opacity-75 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505]"

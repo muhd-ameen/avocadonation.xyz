@@ -1,5 +1,5 @@
 const links = [
-  { label: 'Discord', href: 'https://discord.gg', external: true },
+  { label: 'Discord', href: 'https://discord.gg/KEK7SrPF', external: true },
   { label: 'X', href: 'https://x.com/emeenx', external: true },
 ]
 
@@ -30,7 +30,7 @@ export default function Navbar() {
         ))}
 
         <a
-          href="https://discord.gg"
+          href="https://discord.gg/KEK7SrPF"
           target="_blank"
           rel="noreferrer"
           className={`inline-flex items-center justify-center rounded-full bg-white px-4 py-2 text-sm font-medium text-black transition-opacity duration-150 ease-out hover:opacity-90 active:opacity-75 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505]`}
