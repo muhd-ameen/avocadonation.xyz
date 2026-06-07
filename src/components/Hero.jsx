@@ -20,7 +20,7 @@ export default function Hero() {
           Welcome to Avocado Nation 🥑
         </p>
 
-        <h1 className="animate-fade-up mt-6 text-5xl font-medium leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl" style={{ animationDelay: '60ms' }}>
+        <h1 className="animate-fade-up mt-6 text-4xl font-medium leading-[1.08] tracking-tight text-white sm:text-6xl sm:leading-[1.05] lg:text-7xl" style={{ animationDelay: '60ms' }}>
           hi.
           <br />
           i&apos;m ameen.
@@ -28,11 +28,21 @@ export default function Hero() {
           mayor of avocado nation.
         </h1>
 
-        <div className="animate-fade-up mt-8 max-w-md space-y-4 text-lg leading-relaxed text-neutral-400" style={{ animationDelay: '120ms' }}>
+        <div className="animate-fade-up mt-8 max-w-md space-y-4 text-base leading-relaxed text-neutral-400 sm:text-lg" style={{ animationDelay: '120ms' }}>
           <p>i spend most of my time building things on the internet.</p>
           <p>lately i&apos;ve been thinking a lot about one question:</p>
           <p className="text-white">how do humans coordinate?</p>
         </div>
+
+        {/* Holographic character on mobile — shown below the copy, centered,
+            since there's no room to bleed it behind the text on narrow screens. */}
+        <img
+          src="/character.png"
+          alt=""
+          aria-hidden="true"
+          className="animate-fade-up pointer-events-none mx-auto mt-12 block w-3/4 max-w-xs select-none lg:hidden"
+          style={{ animationDelay: '180ms' }}
+        />
       </div>
     </section>
   )

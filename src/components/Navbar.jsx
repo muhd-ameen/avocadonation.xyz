@@ -8,22 +8,22 @@ const ringClasses =
 
 export default function Navbar() {
   return (
-    <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 lg:px-8">
+    <header className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-5 sm:py-6 lg:px-8">
       <a
         href="#top"
-        className={`text-base font-medium tracking-tight text-white ${ringClasses}`}
+        className={`shrink-0 whitespace-nowrap text-base font-medium tracking-tight text-white ${ringClasses}`}
       >
         🥑 Avocado Nation
       </a>
 
-      <nav className="flex items-center gap-5 sm:gap-7">
+      <nav className="flex items-center gap-4 sm:gap-7">
         {links.map((link) => (
           <a
             key={link.label}
             href={link.href}
             target="_blank"
             rel="noreferrer"
-            className={`text-sm font-medium text-neutral-400 transition-colors duration-150 ease-out hover:text-white ${ringClasses}`}
+            className={`hidden text-sm font-medium text-neutral-400 transition-colors duration-150 ease-out hover:text-white sm:inline ${ringClasses}`}
           >
             {link.label}
           </a>
